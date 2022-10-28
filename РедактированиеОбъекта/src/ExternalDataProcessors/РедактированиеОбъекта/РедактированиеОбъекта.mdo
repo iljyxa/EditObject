@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e98f5e5e-f8b9-4c93-a4f4-494ac398f986">
+  <producedTypes>
+    <objectType typeId="df653ccc-e522-4ce6-b5f8-602ac857755e" valueTypeId="3955c5f3-0045-441f-bd64-40227681097f"/>
+  </producedTypes>
+  <name>РедактированиеОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование объекта</value>
+  </synonym>
+  <comment>1.0.0.1</comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="a4fc2dbf-5371-4b74-9a1e-051466dea99e"/>
+  <defaultForm>ExternalDataProcessor.РедактированиеОбъекта.Form.Форма</defaultForm>
+  <forms uuid="6eb4d6bf-370c-498b-9039-dcd0116d8620">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9228bcb3-6648-4380-9894-aeef37e6bc14">
+    <name>ФормаОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма объекта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5afda296-907d-4fa4-b51e-3853ba8bc159">
+    <name>ПараметрыЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
